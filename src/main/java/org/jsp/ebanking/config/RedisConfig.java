@@ -1,5 +1,5 @@
-package org.jsp.ebanking.config;
 
+package org.jsp.ebanking.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

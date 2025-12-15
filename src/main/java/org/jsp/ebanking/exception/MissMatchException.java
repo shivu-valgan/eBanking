@@ -8,6 +8,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
-public class DataExistsException extends RuntimeException {
-	private String message = "Data Already Exists";
+public class MissMatchException extends RuntimeException {
+	private String message = "Missmatch";
 }

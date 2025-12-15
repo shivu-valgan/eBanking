@@ -5,9 +5,9 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+@Getter
 @AllArgsConstructor
 @NoArgsConstructor
-@Getter
-public class DataExistsException extends RuntimeException {
-	private String message = "Data Already Exists";
+public class DataNotFoundException extends RuntimeException {
+	private String message = "Data Not Found";
 }

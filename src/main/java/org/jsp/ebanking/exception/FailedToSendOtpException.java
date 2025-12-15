@@ -8,6 +8,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
-public class DataExistsException extends RuntimeException {
-	private String message = "Data Already Exists";
+public class FailedToSendOtpException extends RuntimeException {
+	private String message = "Failed to Send OTP";
 }
